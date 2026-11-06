@@ -6,5 +6,14 @@ public class Main {
      System.out.println("Title: " + media.getTitle());
         System.out.println("Duration: " + media.getDuration() + " seconds");
         media.play();
+    
+
+    MediaItem virtualMedia = new VirtualMediaProxy("Virtual Media", 90);
+        System.out.println("Title: " + virtualMedia.getTitle());
+        System.out.println("Duration: " + virtualMedia.getDuration() + " seconds");
+        virtualMedia.play();
+    
+        
+    
     }
 }
